@@ -1,14 +1,19 @@
 [
   {
-    "calender": [
+    "fertilizer": [
       {
-        "fertilizer": ["Spring", "Summer"],
-        "flower-start": "March",
-        "flower-end": "May",
-        "pesticide": ["Spring", "Summer"]
-      }
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }      
     ],
-    "dimensions": [
+    "maintenance": [
+      {
+        "pruning": ["February-March"],
+        "bugspray": ["April-June"]
+      }
+    ]
+    "dimensions": [ 
       {
         "height": 15,
         "width": 15
