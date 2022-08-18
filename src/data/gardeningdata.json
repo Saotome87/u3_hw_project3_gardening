@@ -1,0 +1,321 @@
+[
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 15,
+        "width": 15
+      }
+    ],
+    "diseases": ["Powdery Mildew", "Scab", "Cedar Apple Rust", "Fire Blight"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Apple Tree - Braeburn",
+        "scientific": "Malus pumila"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://minnetonkaorchards.com/wp-content/uploads/2020/08/Braeburn-Apples.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 15,
+        "width": 15
+      }
+    ],
+    "diseases": ["Powdery Mildew", "Black Rot", "Fire Blight"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Apple Tree - Honey Crisp",
+        "scientific": "Malus pumila"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://cdn.shopify.com/s/files/1/0059/8835/2052/products/Honeycrisp_Apple_1_FGT_650x.jpg?v=1612444132",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 20,
+        "width": 15
+      }
+    ],
+    "diseases": ["Brown Spot", "Leaf Spot"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Cherry Tree - Lapins",
+        "scientific": "Prunus avium"
+      }
+    ],
+    "ornamental": ["Flower", "Foliage"],
+    "pH": "Neutral",
+    "picture": "https://www.cloudmountainfarmcenter.org/wp-content/uploads/2018/02/sclp-600x400.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 10,
+        "width": 8
+      }
+    ],
+    "diseases": ["Fig Rust", "Leaf Blight"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "none",
+    "fruit": ["Summer"],
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Fig Tree - Beer's Black",
+        "scientific": "Ficus carica"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://i.ebayimg.com/images/g/Ll4AAOSwxPVg0j7J/s-l225.jpg",
+    "setting": "Open",
+    "soil": "Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 15,
+        "width": 12
+      }
+    ],
+    "diseases": ["Fig Rust", "Leaf Blight"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "none",
+    "fruit": ["Summer", "Fall"],
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Fig Tree - Chicago Hardy",
+        "scientific": "Ficus carica"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://gardenerspath.com/wp-content/uploads/2020/01/Hardy-Chicago-Ripe-Fruit-NH.jpg",
+    "setting": "Open",
+    "soil": "Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 12,
+        "width": 10
+      }
+    ],
+    "diseases": ["Fig Rust", "Leaf Blight"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "none",
+    "fruit": ["Summer", "Fall"],
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Fig Tree - Ischia",
+        "scientific": "Ficus carica"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://ediblelandscaping.com/products/shrubs/Figs/images/site/Fig%20Verte_DSC0471.jpg",
+    "setting": "Open",
+    "soil": "Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 20,
+        "width": 20
+      }
+    ],
+    "diseases": ["Peach Leaf Curl"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Peach Tree - Indian Blood",
+        "scientific": "Prunus persica"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://monticello-www.s3.amazonaws.com/files/callouts/classic-sml-indianbloodcling-peach.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  },
+
+  {
+    "calender": [
+      {
+        "fertilizer": ["Spring", "Summer"],
+        "flower-start": "March",
+        "flower-end": "May",
+        "pesticide": ["Spring", "Summer"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 20,
+        "width": 20
+      }
+    ],
+    "diseases": ["Peach Leaf Curl"],
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Peach Tree - O'Henry",
+        "scientific": "Prunus persica"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://bloximages.newyork1.vip.townnews.com/scnow.com/content/tncms/assets/v3/editorial/f/9f/f9f9a468-e391-11ec-af06-97c9d65dcb2a/629a948ada18e.image.jpg?resize=750%2C500",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody"
+  }
+]

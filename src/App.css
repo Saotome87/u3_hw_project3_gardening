@@ -1,3 +1,16 @@
 body {
   text-align: center;
 }
+
+.front-page-pic {
+  width: 50%;
+  height: 80%;
+}
+
+.plant-info-pic {
+  width: 20vw;
+  height:  30vh;
+  object-fit: cover;
+  border: forestgreen solid 2px;
+  border-radius: 40%;
+}
