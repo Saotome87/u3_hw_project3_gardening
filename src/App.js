@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="plant-page">
         {gardeningdata.map((gdata) => (
-          <div className="plant-page-component">
+          <div className="plant-page-box">
             {gdata.name.map((names) => (
               <Name
                 // key={names.common}

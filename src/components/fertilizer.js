@@ -1,6 +1,6 @@
 const Fertilizer = (props) => {
   return (
-    <div className="plant-info-box">
+    <div className="fertilizer-box plant-info-box">
       <h3>Fertilizer Regimen:</h3>
       <h4>Spring Growth: {props.vegetative}</h4>
       <h4>Blooming and Fruiting: {props.fruiting}</h4>

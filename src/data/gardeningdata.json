@@ -9,7 +9,7 @@
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -55,7 +55,7 @@
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -95,13 +95,13 @@
     "fertilizer": [
       {
         "vegetative": ["January-March"],
-        "fruiting": ["April-July"],
+        "fruiting": ["March-June"],
         "rooting": ["September-October"]
       }
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -140,13 +140,13 @@
     "fertilizer": [
       {
         "vegetative": ["January-March"],
-        "fruiting": ["April-July"],
+        "fruiting": ["April-August"],
         "rooting": ["September-October"]
       }
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -163,7 +163,7 @@
     "foliage": "Deciduous",
     "friends": "none noteworthy",
     "flowering": "none",
-    "fruit": ["Summer"],
+    "fruit": ["Summer", "Fall"],
     "invasive": false,
     "moisture": "average",
     "name": [
@@ -185,13 +185,13 @@
     "fertilizer": [
       {
         "vegetative": ["January-March"],
-        "fruiting": ["April-July"],
+        "fruiting": ["April-August"],
         "rooting": ["September-October"]
       }
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -230,13 +230,13 @@
     "fertilizer": [
       {
         "vegetative": ["January-March"],
-        "fruiting": ["April-July"],
+        "fruiting": ["April-August"],
         "rooting": ["September-October"]
       }
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -281,7 +281,7 @@
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
@@ -326,7 +326,7 @@
     ],
     "maintenance": [
       {
-        "pruning": ["February-March"],
+        "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
     ],
