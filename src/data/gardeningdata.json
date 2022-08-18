@@ -5,15 +5,16 @@
         "vegetative": ["January-March"],
         "fruiting": ["April-July"],
         "rooting": ["September-October"]
-      }      
+      }
     ],
     "maintenance": [
       {
         "pruning": ["February-March"],
         "bugspray": ["April-June"]
       }
-    ]
-    "dimensions": [ 
+    ],
+
+    "dimensions": [
       {
         "height": 15,
         "width": 15
