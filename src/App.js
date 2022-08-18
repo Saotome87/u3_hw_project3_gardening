@@ -3,6 +3,7 @@ import "./App.css";
 import gardeningdata from "./data/gardeningdata.json";
 import Plant from "./components/plantpage";
 import Name from "./components/plantname";
+import Fertilizer from "./components/fertilizer";
 
 function App() {
   return (
@@ -33,6 +34,13 @@ function App() {
               flowering={gdata.flowering}
               fruit={gdata.fruit}
             />
+            {gdata.fertilizer.map((ferts) => (
+              <Fertilizer
+                vegetative={ferts.vegetative}
+                fruiting={ferts.fruiting}
+                rooting={ferts.rooting}
+              />
+            ))}
           </div>
         ))}
       </div>
