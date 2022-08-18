@@ -22,13 +22,13 @@ function App() {
           <div className="plant-page-component">
             {gdata.name.map((names) => (
               <Name
-                key={names.common}
+                // key={names.common}
                 common={names.common}
                 scientific={names.scientific}
               />
             ))}
             <Plant
-              key={gdata.name.common}
+              // key={gdata.name.common}
               // common={gdata.name.common}
               // scientific={gdata.name.scientific}
               picture={gdata.picture}
