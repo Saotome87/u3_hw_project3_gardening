@@ -4,6 +4,7 @@ import gardeningdata from "./data/gardeningdata.json";
 import Plant from "./components/plantpage";
 import Name from "./components/plantname";
 import Fertilizer from "./components/fertilizer";
+import Maintenance from "./components/maintenance";
 
 function App() {
   return (
@@ -39,6 +40,12 @@ function App() {
                 vegetative={ferts.vegetative}
                 fruiting={ferts.fruiting}
                 rooting={ferts.rooting}
+              />
+            ))}
+            {gdata.maintenance.map((maintain) => (
+              <Maintenance
+                pruning={maintain.pruning}
+                bugspray={maintain.bugspray}
               />
             ))}
           </div>
