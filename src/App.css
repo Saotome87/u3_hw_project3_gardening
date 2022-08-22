@@ -51,7 +51,13 @@ body {
 
 .nav-bar-left {
   align-self: start;
+  border: aquamarine solid 2px;
+  position: fixed;
+  z-index: 4;
 }
+    .nav-bar-left-1 {
+
+    }
 
 .nav-bar-right {
   

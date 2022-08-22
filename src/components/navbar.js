@@ -23,7 +23,7 @@ const NavBar = (props) => {
       <div className="nav-bar-left nav-bar">
         <div className="nav-bar-left-1 nav-bar-element">
           Edible
-          {showInfo ? <Plant /> : <HomePage />}
+          {showInfo ? <HomePage /> : <Plant />}
           <PlantButton toggleInfo={toggleInfo} />
         </div>
         <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
