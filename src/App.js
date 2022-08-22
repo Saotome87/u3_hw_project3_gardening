@@ -17,6 +17,12 @@ function App() {
           alt="maple"
           src="https://candide.com/img/9c8ffdd9-d2b9-4595-b88f-e19aa0842597/cropped/760x608"
         ></img>
+        <nav className="nav-bar-left nav-bar">
+          <div className="nav-bar-left-1"></div>
+          <div className="nav-bar-left-2"></div>
+          <div className="nav-bar-left-3"></div>
+          <div className="nav-bar-left-4"></div>
+        </nav>
       </div>
       <div className="plant-page">
         <div className="plant-page-grid">
