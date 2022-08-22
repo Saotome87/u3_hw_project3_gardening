@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  border: red solid 1px;
+  /* border: red solid 1px; */
   width: 100%;
 }
 .front-page {
@@ -51,9 +51,7 @@ body {
 
 .nav-bar-left {
   align-self: start;
-  border: aquamarine solid 2px;
-  position: fixed;
-  z-index: 4;
+
 }
     .nav-bar-left-1 {
 
