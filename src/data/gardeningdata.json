@@ -9,6 +9,12 @@
     ],
     "maintenance": [
       {
+        "diseases": [
+          "Powdery Mildew",
+          "Scab",
+          "Cedar Apple Rust",
+          "Fire Blight"
+        ],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -20,7 +26,7 @@
         "width": 15
       }
     ],
-    "diseases": ["Powdery Mildew", "Scab", "Cedar Apple Rust", "Fire Blight"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -55,6 +61,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Powdery Mildew", "Black Rot", "Fire Blight"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -66,7 +73,7 @@
         "width": 15
       }
     ],
-    "diseases": ["Powdery Mildew", "Black Rot", "Fire Blight"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -78,7 +85,7 @@
     "moisture": "average",
     "name": [
       {
-        "common": "Apple Tree - Honey Crisp",
+        "common": "Apple Tree - HoneyCrisp",
         "scientific": "Malus pumila"
       }
     ],
@@ -101,6 +108,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Brown Spot", "Leaf Spot"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -111,7 +119,7 @@
         "width": 15
       }
     ],
-    "diseases": ["Brown Spot", "Leaf Spot"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -146,6 +154,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Fig Rust", "Leaf Blight"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -156,7 +165,7 @@
         "width": 8
       }
     ],
-    "diseases": ["Fig Rust", "Leaf Blight"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -191,6 +200,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Fig Rust", "Leaf Blight"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -201,7 +211,7 @@
         "width": 12
       }
     ],
-    "diseases": ["Fig Rust", "Leaf Blight"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -282,6 +292,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Peach Leaf Curl"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -292,7 +303,7 @@
         "width": 20
       }
     ],
-    "diseases": ["Peach Leaf Curl"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
@@ -327,6 +338,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Peach Leaf Curl"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -337,7 +349,7 @@
         "width": 20
       }
     ],
-    "diseases": ["Peach Leaf Curl"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",
