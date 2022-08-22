@@ -11,18 +11,29 @@ function App() {
   return (
     <div className="App">
       <div className="front-page">
-        <h1>This is the Gardening Landing Page</h1>
+        <h1 className="front-page-header">
+          This is the Gardening Landing Page
+        </h1>
         <img
           className="front-page-pic"
           alt="maple"
           src="https://candide.com/img/9c8ffdd9-d2b9-4595-b88f-e19aa0842597/cropped/760x608"
         ></img>
-        <nav className="nav-bar-left nav-bar">
-          <div className="nav-bar-left-1"></div>
-          <div className="nav-bar-left-2"></div>
-          <div className="nav-bar-left-3"></div>
-          <div className="nav-bar-left-4"></div>
-        </nav>
+        <div className="nav-bar-left nav-bar">
+          <div className="nav-bar-left-1 nav-bar-element">Edible</div>
+          <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
+          <div className="nav-bar-left-3 nav-bar-element">3</div>
+          <div className="nav-bar-left-4 nav-bar-element">4</div>
+        </div>
+        <div className="nav-bar-right nav-bar">
+          <div className="nav-bar-right-1 nav-bar-element">Gallery</div>
+          <div className="nav-bar-right-2 nav-bar-element">2</div>
+          <div className="nav-bar-right-3 nav-bar-element">Calender</div>
+          <div className="nav-bar-right-4 nav-bar-element">4</div>
+        </div>
+        <div className="front-page-calender">
+          <h1>This is where the scrolling event calender will be</h1>
+        </div>
       </div>
       <div className="plant-page">
         <div className="plant-page-grid">
@@ -50,6 +61,7 @@ function App() {
               // scientific={gdata.name.scientific}
               flowering={gdata.flowering}
               fruit={gdata.fruit}
+              year={gdata.year}
             />
             <Picture picture={gdata.picture} />
 
