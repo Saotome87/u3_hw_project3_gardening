@@ -59,19 +59,13 @@ body {
 
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 65vh 35vh; 
+  grid-template-rows: 15vh 50vh 35vh; 
 
   border: slateblue 3px solid;
 
   position: relative;
   z-index: 2;  
  
-}
-
-.plant-quick-info-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 .picture-box {
@@ -82,7 +76,6 @@ body {
   border-radius: 40%;
 }
 
-
 .plantname-box {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
@@ -90,17 +83,21 @@ body {
   padding-left: 1vw;
 }
 
-.plant-quick-info {
+.plant-quick-info-box {
   grid-column: 1 / 4;
-  grid-row: 1 / 2;
+  grid-row: 2 / 3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .fertilizer-box {
   grid-column: 3 / 5;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .maintenance-box {
   grid-column: 5 / 7;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
 }
