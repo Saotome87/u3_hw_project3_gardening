@@ -57,6 +57,7 @@ function App() {
             {gdata.maintenance.map((maintain) => (
               <Maintenance
                 pruning={maintain.pruning}
+                diseases={maintain.diseases}
                 bugspray={maintain.bugspray}
               />
             ))}

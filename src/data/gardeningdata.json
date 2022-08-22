@@ -236,6 +236,7 @@
     ],
     "maintenance": [
       {
+        "diseases": ["Fig Rust", "Leaf Blight"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
       }
@@ -246,7 +247,7 @@
         "width": 10
       }
     ],
-    "diseases": ["Fig Rust", "Leaf Blight"],
+
     "drainage": "Well-Drained",
     "edible/fruiting": true,
     "enemies": "none noteworthy",

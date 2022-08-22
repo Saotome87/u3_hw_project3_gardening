@@ -1,7 +1,7 @@
 const Picture = (props) => {
   return (
-    <div className="picture-box plant-info-box">
-      <img src={props.picture} alt="plant"></img>
+    <div className="plant-picture-box plant-info-box">
+      <img className="picture-box" src={props.picture} alt="plant"></img>
     </div>
   );
 };
