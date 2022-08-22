@@ -35,8 +35,9 @@ body {
   border: black solid 1px;
   display: flex;
   flex-direction: column;
-  align: center;
-  
+  justify-content: center;
+  align-items: center;
+   
 }
 
 .nav-bar {
