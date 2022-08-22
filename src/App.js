@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
 import gardeningdata from "./data/gardeningdata.json";
-import Plant from "./components/plantpage";
 import Name from "./components/plantname";
+import Plant from "./components/plantpage";
+import Picture from "./components/picture";
 import Fertilizer from "./components/fertilizer";
 import Maintenance from "./components/maintenance";
 
@@ -18,6 +19,16 @@ function App() {
         ></img>
       </div>
       <div className="plant-page">
+        <div className="plant-page-grid">
+          <div className="plant-page-grid-box1"></div>
+          <div className="plant-page-grid-box1"></div>
+          <div className="plant-page-grid-box1"></div>
+          <div className="plant-page-grid-box1"></div>
+          <div className="plant-page-grid-box2"></div>
+          <div className="plant-page-grid-box2"></div>
+          <div className="plant-page-grid-box2"></div>
+          <div className="plant-page-grid-box2"></div>
+        </div>
         {gardeningdata.map((gdata) => (
           <div className="plant-page-box">
             {gdata.name.map((names) => (
@@ -31,10 +42,11 @@ function App() {
               // key={gdata.name.common}
               // common={gdata.name.common}
               // scientific={gdata.name.scientific}
-              picture={gdata.picture}
               flowering={gdata.flowering}
               fruit={gdata.fruit}
             />
+            <Picture picture={gdata.picture} />
+
             {gdata.fertilizer.map((ferts) => (
               <Fertilizer
                 vegetative={ferts.vegetative}
