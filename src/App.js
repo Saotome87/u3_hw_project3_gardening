@@ -2,36 +2,33 @@ import React from "react";
 import "./App.css";
 // import NavBar from "./components/navbar";
 // import { useState } from "react";
-// import HomePage from "./homepage";
-// import PlantButton from "./plantpagebutton";
+import HomePage from "./components/homepage";
 import gardeningdata from "./data/gardeningdata.json";
 import Name from "./components/plantname";
 import Plant from "./components/plantpage";
 import Picture from "./components/picture";
 import Fertilizer from "./components/fertilizer";
 import Maintenance from "./components/maintenance";
-import Edible from "./components/edible";
+// import Edible from "./components/edible";
 
 function App() {
   return (
     <div className="App">
       <div className="page-grand">
         <div className="page-between-navbar">
-          <div className="nav-bar-left nav-bar">
-            <div className="nav-bar-left-1 nav-bar-element">Edible</div>
-            <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
-            <div className="nav-bar-left-3 nav-bar-element">3</div>
-            <div className="nav-bar-left-4 nav-bar-element">4</div>
-          </div>
-          <div className="nav-bar-right nav-bar">
-            <div className="nav-bar-right-1 nav-bar-element">Gallery</div>
-            <div className="nav-bar-right-2 nav-bar-element">2</div>
-            <div className="nav-bar-right-3 nav-bar-element">Calender</div>
-            <div className="nav-bar-right-4 nav-bar-element">4</div>
-          </div>
-          <div className="front-page-calender">
-            <h1>This is where the scrolling event calender will be</h1>
-          </div>
+          <HomePage />
+        </div>
+        <div className="nav-bar-left nav-bar">
+          <div className="nav-bar-left-1 nav-bar-element">Edible</div>
+          <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
+          <div className="nav-bar-left-3 nav-bar-element">3</div>
+          <div className="nav-bar-left-4 nav-bar-element">4</div>
+        </div>
+        <div className="nav-bar-right nav-bar">
+          <div className="nav-bar-right-1 nav-bar-element">Gallery</div>
+          <div className="nav-bar-right-2 nav-bar-element">2</div>
+          <div className="nav-bar-right-3 nav-bar-element">Calender</div>
+          <div className="nav-bar-right-4 nav-bar-element">4</div>
         </div>
       </div>
       <div className="plant-page">

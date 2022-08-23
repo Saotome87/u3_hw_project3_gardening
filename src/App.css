@@ -15,23 +15,42 @@ body {
   border: goldenrod solid 1px;
 } 
 
+.page-between-navbar {
+  width: 73%;
+  height: 100%;
+  border: teal solid 2px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .home-page-header {
-  position: relative;
-  /* bottom: 12%; */
+  /* position: relative; */
+  margin: 7% 0 5% 0;
 }
 
 .home-page-pic {
-  position: relative;
-  width: 60%;
-  height: 60%;
+  /* position: relative; */
+  width:90%;
+  height: 50%;
   object-fit: cover;
   /* bottom: 10%; */
 }
 
 .home-page-calender {
   height: 20%;
-  width: 60%;
-  margin: 2% 0 1% 0;
+  width: 90%;
+  margin: 4% 0 1% 0;
   border: black solid 1px;
   display: flex;
   flex-direction: column;
