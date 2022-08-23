@@ -10,46 +10,28 @@ import Plant from "./components/plantpage";
 import Picture from "./components/picture";
 import Fertilizer from "./components/fertilizer";
 import Maintenance from "./components/maintenance";
+import Edible from "./components/edible";
 
 function App() {
-  // let [showInfo, setShowInfo] = useState(false);
-  // const toggleInfo = () => {
-  //   if (!showInfo) {
-  //     setShowInfo(true);
-  //   } else {
-  //     setShowInfo(false);
-  //   }
-  // };
   return (
     <div className="App">
-      <div className="front-page">
-        {/* <NavBar /> */}
-        <h1 className="front-page-header">
-          This is the Gardening Landing Page
-        </h1>
-        <img
-          className="front-page-pic"
-          alt="maple"
-          src="https://candide.com/img/9c8ffdd9-d2b9-4595-b88f-e19aa0842597/cropped/760x608"
-        ></img>
-        <div className="nav-bar-left nav-bar">
-          <div className="nav-bar-left-1 nav-bar-element">
-            Edible
-            {/* {showInfo ? <Plant /> : <HomePage />}
-            <PlantButton toggleInfo={toggleInfo} /> */}
+      <div className="page-grand">
+        <div className="page-between-navbar">
+          <div className="nav-bar-left nav-bar">
+            <div className="nav-bar-left-1 nav-bar-element">Edible</div>
+            <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
+            <div className="nav-bar-left-3 nav-bar-element">3</div>
+            <div className="nav-bar-left-4 nav-bar-element">4</div>
           </div>
-          <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
-          <div className="nav-bar-left-3 nav-bar-element">3</div>
-          <div className="nav-bar-left-4 nav-bar-element">4</div>
-        </div>
-        <div className="nav-bar-right nav-bar">
-          <div className="nav-bar-right-1 nav-bar-element">Gallery</div>
-          <div className="nav-bar-right-2 nav-bar-element">2</div>
-          <div className="nav-bar-right-3 nav-bar-element">Calender</div>
-          <div className="nav-bar-right-4 nav-bar-element">4</div>
-        </div>
-        <div className="front-page-calender">
-          <h1>This is where the scrolling event calender will be</h1>
+          <div className="nav-bar-right nav-bar">
+            <div className="nav-bar-right-1 nav-bar-element">Gallery</div>
+            <div className="nav-bar-right-2 nav-bar-element">2</div>
+            <div className="nav-bar-right-3 nav-bar-element">Calender</div>
+            <div className="nav-bar-right-4 nav-bar-element">4</div>
+          </div>
+          <div className="front-page-calender">
+            <h1>This is where the scrolling event calender will be</h1>
+          </div>
         </div>
       </div>
       <div className="plant-page">
