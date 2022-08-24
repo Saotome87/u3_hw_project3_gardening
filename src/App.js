@@ -3,15 +3,19 @@ import "./App.css";
 import NavBar from "./components/navbar";
 // import { useState } from "react";
 import HomePage from "./components/homepage";
-import gardeningdata from "./data/gardeningdata.json";
-import Name from "./components/plantname";
-import Plant from "./components/plantpage";
-import Picture from "./components/picture";
-import Fertilizer from "./components/fertilizer";
-import Maintenance from "./components/maintenance";
-// import Edible from "./components/edible";
+// import gardeningdata from "./data/gardeningdata.json";
+// import Name from "./components/plantname";
+// import PlantProfile from "./components/plantPageProfile";
+// import Picture from "./components/picture";
+// import Fertilizer from "./components/fertilizer";
+// import Maintenance from "./components/maintenance";
+import PlantPage from "./components/plantPage";
 
 function App() {
+  let AnnualArray = [];
+  let PerennialArray = [];
+  let WoodyArray = [];
+
   return (
     <div className="App">
       <div className="page-grand">
@@ -34,7 +38,10 @@ function App() {
           <div className="plant-page-grid-box2"></div>
           <div className="plant-page-grid-box2"></div>
         </div>
-        {gardeningdata.map((gdata) => (
+        <div className="plant-page-box">
+          <PlantPage />
+        </div>
+        {/* {gardeningdata.map((gdata) => (
           <div className="plant-page-box">
             {gdata.name.map((names) => (
               <Name
@@ -67,7 +74,7 @@ function App() {
               />
             ))}
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

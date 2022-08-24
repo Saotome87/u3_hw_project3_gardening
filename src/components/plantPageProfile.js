@@ -1,4 +1,4 @@
-const Plant = (props) => {
+const PlantProfile = (props) => {
   return (
     <div className="plant-quick-info-box plant-info-box">
       <div className="plant-quick-info">
@@ -10,4 +10,4 @@ const Plant = (props) => {
   );
 };
 
-export default Plant;
+export default PlantProfile;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EdibleButton from "./edibleButton";
+import EdibleButtonWoody from "./edibleButtonWoody";
 import HomePage from "./homepage";
 import Edible from "./edible";
 
@@ -19,7 +19,7 @@ const NavBar = () => {
       <div className="nav-bar-left nav-bar">
         <div className="nav-bar-left-1 nav-bar-element">
           {showInfo ? <Edible /> : <HomePage />}
-          <EdibleButton toggleInfo={toggleInfo} />
+          <EdibleButtonWoody toggleInfo={toggleInfo} />
         </div>
         <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
         <div className="nav-bar-left-3 nav-bar-element">3</div>

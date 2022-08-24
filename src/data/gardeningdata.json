@@ -380,5 +380,101 @@
     "sunlight": "Full Sun",
     "type": "Woody",
     "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Cane Blight", "Gray Mold"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 6
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Raspberry - Glencoe",
+        "scientific": "Rubus idaeus"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.agristarts.com/_ccLib/image/plants/DETA-379.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": 2022
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Verticillium Wilt", "Early Blight"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 10,
+        "width": 5
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Tomato - Sun Gold",
+        "scientific": "Lycopersicon esculentum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.kitchengardenseeds.com/media/catalog/product/cache/0e0f8b55cb1429f46d7faa85732ae262/4/3/4300-1-web.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Annual",
+    "year": "Annual"
   }
 ]
