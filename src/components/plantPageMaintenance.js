@@ -8,7 +8,7 @@ const Maintenance = (props) => {
     finallist = listing.slice(0, -2);
   }
   return (
-    <div className="maintenance-box plant-info-box">
+    <div className="plant-info-box">
       <h3>Maintenance Regimen: {props.maintenance}</h3>
       <h4>Pruning Period: {props.pruning}</h4>
 

@@ -2,20 +2,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  border: red solid 1px;
+  border: skyblue solid 1px;
   width: 100%;
 }
 .app-page-navbar {
-  width: 100%;
   height: 100%;
+  width: 100%;  
+  /* position: fixed;
+  overflow: hidden; */
   }
     .nav-bar-box {
+      position: fixed;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       
-      width: 100%;
-      height: 100%;
+      width: 61%;
+      height: 45px;
       background: blanchedalmond;
     }
 
@@ -58,7 +61,7 @@ body {
 
     .page-between-navbar {
       width: 85%;
-      height: 100%;
+      height: 100vh;
       border: teal solid 2px;
 
       display: flex;
@@ -78,7 +81,7 @@ body {
               margin: 7% 0 5% 0;
             }
             .home-page-pic {
-              width:90%;
+              width: 80%;
               height: 60%;
               object-fit: cover;             
             }
@@ -104,14 +107,13 @@ body {
 
 }
 
-/* .plant-page-grid {
+.plant-page-grid {
   height:90vh;
   width: 60vw;
-
   border: yellowgreen 3px solid;
 
   position: absolute;
-  z-index: 3;
+  /* z-index: 3; */
 
   display: flex;
   flex-direction: row;
@@ -129,9 +131,15 @@ body {
           width: 24.8%;
 
           border: black 1px solid;
-        } */
+        }
 
-.plant-page-box {
+.plant-page-container {
+  height:90vh;
+  width: 60vw;
+
+}
+
+.plants-box {
   height: 100%;
   width: 100%;
   padding-top: 15px;
@@ -142,21 +150,19 @@ body {
   grid-template-rows: 15vh 45vh 40vh; 
 
   border: slateblue 3px solid;
-  /* position: static;    */
 }
-
-.plantname-box {
+.plant-name-box {
   grid-column: 1 / 5;
   grid-row: 1 / 2;
 
-  padding: 10px 0 0 10px;
+  padding: 4% 0 0 8%;
 }
 
-.plant-quick-info-box {
+.plant-profile-box {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
 
-  padding-left: 10px;
+  padding: 3% 0 0 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -164,7 +170,7 @@ body {
 
 .plant-picture-box {
   grid-column: 5 / 9;
-  margin: 5px 0px 0 10px;
+  margin: 10% 0px 0 10%;
 }
 
 .picture-box {
@@ -177,11 +183,13 @@ body {
 .fertilizer-box {
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-  padding: 0 0 0 10px;
+  width: 85%;
+  padding: 0 0 0 10%;
 }
 
 .maintenance-box {
   grid-column: 5 / 9;
   grid-row: 3 / 4;
-  padding: 0 5px 0 10px;
+  width: 85%;
+  padding: 0 5px 0 10%;
 }
