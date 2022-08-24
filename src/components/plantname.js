@@ -1,5 +1,3 @@
-import React from "react";
-
 const Name = (props) => {
   return (
     <div className="plantname-box plant-info-box">

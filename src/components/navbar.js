@@ -21,8 +21,8 @@ const NavBar = () => {
           {showInfo ? <Edible /> : <HomePage />}
           <EdibleButtonWoody toggleInfo={toggleInfo} />
         </div>
-        <div className="nav-bar-left-2 nav-bar-element">Ornamental</div>
-        <div className="nav-bar-left-3 nav-bar-element">3</div>
+        <div className="nav-bar-left-2 nav-bar-element">Perennial</div>
+        <div className="nav-bar-left-3 nav-bar-element">Annual</div>
         <div className="nav-bar-left-4 nav-bar-element">4</div>
       </div>
       <div className="nav-bar-right nav-bar">

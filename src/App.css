@@ -2,58 +2,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  /* border: red solid 1px; */
+  border: red solid 1px;
   width: 100%;
 }
-.page-grand {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  border: goldenrod solid 1px;
-} 
-
-    .page-between-navbar {
-      width: 73%;
-      height: 100%;
-      border: teal solid 2px;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-        .home-page {
-          width: 100%;
-          height: 100%;
-
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-            .home-page-header {              
-              margin: 7% 0 5% 0;
-            }
-            .home-page-pic {
-              width:90%;
-              height: 50%;
-              object-fit: cover;             
-            }
-            .home-page-calender {
-              height: 20%;
-              width: 90%;
-              margin: 4% 0 1% 0;
-              border: black solid 1px;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;      
-            }
-.page-navbar {
-  position: absolute;
+.app-page-navbar {
   width: 100%;
   height: 100%;
   }
@@ -63,11 +15,11 @@ body {
       justify-content: space-between;
       
       width: 100%;
-      height: 5%;
+      height: 100%;
       background: blanchedalmond;
     }
-        .nav-bar {
-          /* position: absolute;*/
+
+        .nav-bar {          
           display: flex; 
           flex-direction: row;
           height: 100%;
@@ -93,10 +45,66 @@ body {
                   align-items: center;
                 }
 
-.page-edible {
-  
+.app-page-grand {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: goldenrod solid 1px;
+} 
+
+    .page-between-navbar {
+      width: 85%;
+      height: 100%;
+      border: teal solid 2px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+        .home-page {
+          width: 100%;
+          height: 100%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+            .home-page-header {              
+              margin: 7% 0 5% 0;
+            }
+            .home-page-pic {
+              width:90%;
+              height: 60%;
+              object-fit: cover;             
+            }
+            .home-page-calender {
+              height: 20%;
+              width: 90%;
+              margin: 4% 0 1% 0;
+
+              border: black solid 1px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;      
+            }
+.app-plant-page {
+  height: 100%;
+  width: 100%;
+  border: grey 4px dotted;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-.plant-page-grid {
+
+/* .plant-page-grid {
   height:90vh;
   width: 60vw;
 
@@ -110,52 +118,45 @@ body {
   flex-wrap: wrap; 
 }
 
-.plant-page-grid-box1 {
-  height: 60.4%;
-  width: 24.8%;
+        .plant-page-grid-box1 {
+          height: 60.4%;
+          width: 24.8%;
 
-  border: black 1px solid;
-}
-.plant-page-grid-box2 {
-  height: 39.4%;
-  width: 24.8%;
+          border: black 1px solid;
+        }
+        .plant-page-grid-box2 {
+          height: 39.4%;
+          width: 24.8%;
 
-  border: black 1px solid;
-}
-
-.plant-page {
-  position: relative;
-}
+          border: black 1px solid;
+        } */
 
 .plant-page-box {
-  height: 90vh;
-  width: 60vw;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 15vh 45vh 40vh; 
 
   border: slateblue 3px solid;
-
-  position: relative;
-  z-index: 2;  
- 
+  /* position: static;    */
 }
 
 .plantname-box {
   grid-column: 1 / 5;
   grid-row: 1 / 2;
 
-  padding: 3vh 0 0 1vw;
+  padding: 10px 0 0 10px;
 }
 
 .plant-quick-info-box {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
 
-  padding-left: 1vw;
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -163,8 +164,7 @@ body {
 
 .plant-picture-box {
   grid-column: 5 / 9;
-
-  margin: 6vh 0px 0 5vw;
+  margin: 5px 0px 0 10px;
 }
 
 .picture-box {
@@ -172,18 +172,16 @@ body {
   height: 40vh;
   object-fit: cover;
   border: forestgreen solid 2px;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 .fertilizer-box {
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-
-  padding: 0 0 0 1vw;
+  padding: 0 0 0 10px;
 }
 
 .maintenance-box {
   grid-column: 5 / 9;
   grid-row: 3 / 4;
-
-  padding: 0 1vw 0 4vw;
+  padding: 0 5px 0 10px;
 }
