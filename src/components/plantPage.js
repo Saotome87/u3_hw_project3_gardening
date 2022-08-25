@@ -21,8 +21,7 @@ const PlantPage = () => {
           ))}
           <div className="plant-profile-box">
             <PlantProfile
-              // key={gdata.name.common}
-              // common={gdata.name.common}
+              key={gdata.name.common}
               flowering={gdata.flowering}
               fruit={gdata.fruit}
               year={gdata.year}

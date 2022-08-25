@@ -49,6 +49,7 @@ const createWorkoutCategories = () => {
       setDisplayPull(false)
       setDisplayLeg(false)
       setDisplayAbdominals(true)
+    }
 
 <button className="button" onClick={() => togglePush()}>
             Push
@@ -70,3 +71,41 @@ const createWorkoutCategories = () => {
   "id": 1
 },
 
+
+
+  let annualArray = [];
+  let perennialArray = [];
+  let woodyArray = [];
+
+  let [displayAnnual, setDisplayAnnual] = useState(false);
+  let [displayPerennial, setDisplayPerennial] = useState(false);
+  let [displayWoody, setDisplayWoody] = useState(false);
+
+  const edibleTypes = () => {
+    for (let i = 0; i < gardeningdata.length; i++) {
+      if (gardeningdata[i].type === "Annual") {
+        annualArray.push(gardeningdata[i]);
+      } else if (gardeningdata[i].type === "Perennial") {
+        perennialArray.push(gardeningdata[i]);
+      } else if (gardeningdata[i].type === "Woody") {
+        woodyArray.push(gardeningdata[i]);
+      }
+  };
+
+  edibleTypes();
+
+  function toggleAnnual() {
+    setDisplayAnnual(true);
+    setDisplayPerennial(false);
+    setDisplayWoody(false);
+  }
+  function togglePerennial() {
+    setDisplayAnnual(false);
+    setDisplayPerennial(true);
+    setDisplayWoody(false);
+  }
+  function toggleWoody() {
+    setDisplayAnnual(false);
+    setDisplayPerennial(false);
+    setDisplayWoody(true);
+  }

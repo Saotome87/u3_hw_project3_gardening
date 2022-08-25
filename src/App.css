@@ -4,6 +4,7 @@ body {
   align-items: center; 
   border: skyblue solid 1px;
   width: 100%;
+  background-color: slategray;
 }
 .app-page-navbar {
   height: 100%;

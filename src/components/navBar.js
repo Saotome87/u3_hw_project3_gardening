@@ -1,7 +1,7 @@
 import { useState } from "react";
-import EdibleButtonWoody from "./edibleButtonWoody";
-import HomePage from "./homepage";
-import Edible from "./edible";
+// import EdibleButtonWoody from "./edibleButtonWoody";
+// import HomePage from "./homepage";
+// import Edible from "./edible";
 
 const NavBar = () => {
   let [showInfo, setShowInfo] = useState(false);
@@ -20,8 +20,9 @@ const NavBar = () => {
         <div className="nav-bar-left-1 nav-bar-element">Annual</div>
         <div className="nav-bar-left-3 nav-bar-element">Perennial</div>
         <div className="nav-bar-left-3 nav-bar-element">
-          {showInfo ? <Edible /> : <HomePage />}
-          <EdibleButtonWoody toggleInfo={toggleInfo} />
+          Woody
+          {/* {showInfo ? <Edible /> : <HomePage />}
+          <EdibleButtonWoody toggleInfo={toggleInfo} /> */}
         </div>
         <div className="nav-bar-left-4 nav-bar-element">Ornamental</div>
       </div>

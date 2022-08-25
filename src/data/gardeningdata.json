@@ -99,6 +99,389 @@
     "type": "Woody",
     "year": 2021
   },
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Crown Rot", "Fusarium Wilt"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 3
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Asparagus - Jersey Knight",
+        "scientific": "Asparagus officinalis"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://robertasuniquegardens.com/pub/media/catalog/product/cache/a3e701ba69e5e9d9d8c5a2a1182877b6/V/i/jersey-knight-asparagus-web-001.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": 2021
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Crown Rot", "Fusarium Wilt"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 3
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Asparagus - Mary Washington",
+        "scientific": "Asparagus officinalis"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.projectpurityseeds.com/uploads/8/5/0/5/8505680/mary-washington-asparagus-foliage-photo-by-denesferi_orig.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": 2021
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 5,
+        "width": 5
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - Bluecrop",
+        "scientific": "Vaccinium corymbosum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "http://cdn.shopify.com/s/files/1/0070/4040/1477/products/vacciniumcorybluecrop1_1200x1200.jpg?v=1607621844",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 5,
+        "width": 5
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - Sunshine",
+        "scientific": "Vaccinium corymbosum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://minnetonkaorchards.com/wp-content/uploads/2022/01/Blueberries-2024043485.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2021
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 6,
+        "width": 6
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - Legacy",
+        "scientific": "Vaccinium corymbosum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://backyardberryplants.com/wp-content/uploads/2018/11/LegacyBlueberry.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 7,
+        "width": 7
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - PowderBlue",
+        "scientific": "Vaccinium Virgatum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://s3.amazonaws.com/mygardenlife.com/plant-library/full/6142_28.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2022
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 5,
+        "width": 5
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - Reka",
+        "scientific": "Vaccinium corymbosum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://h2.commercev3.net/cdn.gurneys.com/images/800/65897A.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Stem Canker"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 4
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Blueberry - Sunshine",
+        "scientific": "Vaccinium corymbosum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://cdn.shopify.com/s/files/1/0061/1391/9089/products/blueberry-sunshine-blue-mid-late-harvest.jpg?v=1636695937",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2020
+  },
 
   {
     "fertilizer": [
@@ -292,6 +675,53 @@
     "fertilizer": [
       {
         "vegetative": ["January-March"],
+        "fruiting": ["April-August"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Anthracnose", "Powdery Mildew"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 20,
+        "width": 10
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "none",
+    "fruit": ["Summer", "Fall"],
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Grape - Catawba",
+        "scientific": "Vitis labrusca × Vitis vinifera"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.naturehills.com/pub/media/catalog/product/c/a/catawba-grapes-on-vine-425x425.jpg",
+    "setting": "Open",
+    "soil": "Loam",
+    "sunlight": "Full Sun",
+    "type": "Woody",
+    "year": 2021
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
         "fruiting": ["April-July"],
         "rooting": ["September-October"]
       }
@@ -334,7 +764,6 @@
     "type": "Woody",
     "year": 2020
   },
-
   {
     "fertilizer": [
       {
@@ -392,6 +821,149 @@
     ],
     "maintenance": [
       {
+        "diseases": ["none"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+    "dimensions": [
+      {
+        "height": 5,
+        "width": 3
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Perilla - Korean",
+        "scientific": "Perilla frutescens"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.healthbenefitstimes.com/9/uploads/2019/04/Health-benefits-of-Perilla-702x459.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Annual",
+    "year": "Annual"
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Cane Blight", "Gray Mold"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 6
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Raspberry - Anne's Gold",
+        "scientific": "Rubus idaeus"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://i.etsystatic.com/19341069/r/il/204c54/2773308226/il_570xN.2773308226_9ayc.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Cane Blight", "Gray Mold"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 4,
+        "width": 6
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Raspberry - Boyne",
+        "scientific": "Rubus idaeus"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://www.homefortheharvest.com/wp-content/uploads/2020/12/best-tasting-raspberries.png",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": 2020
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
         "diseases": ["Cane Blight", "Gray Mold"],
         "pruning": ["January-March"],
         "bugspray": ["April-June"]
@@ -428,6 +1000,150 @@
     "sunlight": "Full Sun",
     "type": "Perennial",
     "year": 2022
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Verticillium Wilt"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 2,
+        "width": 2
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Strawberry - Darselect",
+        "scientific": "Fragaria ananassa"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "http://media.eurekalert.org/multimedia_prod/pub/web/89516_web.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": "n/a"
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Verticillium Wilt"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 2,
+        "width": 2
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Strawberry - Flavorfest",
+        "scientific": "Fragaria ananassa"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://live.staticflickr.com/65535/48366391476_bf686e925c_b.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Perennial",
+    "year": "n/a"
+  },
+
+  {
+    "fertilizer": [
+      {
+        "vegetative": ["January-March"],
+        "fruiting": ["April-July"],
+        "rooting": ["September-October"]
+      }
+    ],
+    "maintenance": [
+      {
+        "diseases": ["Verticillium Wilt", "Early Blight"],
+        "pruning": ["January-March"],
+        "bugspray": ["April-June"]
+      }
+    ],
+
+    "dimensions": [
+      {
+        "height": 10,
+        "width": 5
+      }
+    ],
+
+    "drainage": "Well-Drained",
+    "edible/fruiting": true,
+    "enemies": "none noteworthy",
+    "foliage": "Deciduous",
+    "friends": "none noteworthy",
+    "flowering": "Spring",
+    "fruit": "Summer",
+    "invasive": false,
+    "moisture": "average",
+    "name": [
+      {
+        "common": "Tomato - Lemon Boy",
+        "scientific": "Lycopersicon esculentum"
+      }
+    ],
+    "ornamental": "Foliage",
+    "pH": "Neutral",
+    "picture": "https://cdn.commercev3.net/cdn.totallytomato.com/images/popup/00427.jpg",
+    "setting": "Open",
+    "soil": "Silt-Loam",
+    "sunlight": "Full Sun",
+    "type": "Annual",
+    "year": "Annual"
   },
 
   {
